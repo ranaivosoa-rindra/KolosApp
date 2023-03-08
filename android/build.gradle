@@ -19,3 +19,7 @@ buildscript {
         classpath("com.facebook.react:react-native-gradle-plugin")
     }
 }
+
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.21'
+}
